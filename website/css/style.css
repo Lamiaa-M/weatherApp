@@ -1,0 +1,65 @@
+
+#home
+{
+    height: 100vh;
+    background-image: url("/img/1.jpg");
+    
+}
+.layar
+{
+    background-color: rgba(241, 150, 185, 0.1);
+    top:0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.main{
+    color: rgba(141, 29, 76, 0.5);
+
+}
+
+.mint
+    {
+
+        background-color: #77d4d1;
+    }
+
+.bink{
+
+    background-color: rgba(255, 169, 205, 0.671)
+    }
+   
+
+.lines
+{
+    height: 0.4rem;
+    width: 3rem;
+
+}
+.lines::after
+{
+    content: " ";
+    background-color: rgba(19, 177, 150, 0.5);
+    position: absolute;
+    top: 150%;
+    left: 20%;
+    height: 50%;
+    width: 8rem;
+
+    
+}
+
+.lines::before
+{
+    content: " ";
+    background-color: rgba(252, 221, 50, 0.5);
+    position: absolute;
+    bottom: 20%;
+    right: 20%;
+    height: 50%;
+    width: 8rem;
+
+    
+}
